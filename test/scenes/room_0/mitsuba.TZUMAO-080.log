@@ -1,0 +1,76 @@
+2018-06-18 14:54:38 INFO  main [mainwindow.cpp:80] Mitsuba version 0.5.0 (Windows, 64 bit), Copyright (c) 2014 Wenzel Jakob
+2018-06-18 14:54:38 INFO  main [mainwindow.cpp:83] Configured for RGB-based rendering
+2018-06-18 14:54:39 DEBUG main [WGLSession] Initializing WGL session
+2018-06-18 14:54:39 DEBUG main [WGLRenderer] Using an existing WGL context
+2018-06-18 14:54:39 DEBUG main [GLRenderer] OpenGL renderer : GeForce GTX 1080 Ti/PCIe/SSE2
+2018-06-18 14:54:39 DEBUG main [GLRenderer] OpenGL vendor   : NVIDIA Corporation
+2018-06-18 14:54:39 DEBUG main [GLRenderer] OpenGL version  : 4.6.0 NVIDIA 388.13
+2018-06-18 14:54:39 DEBUG main [GLRenderer] Capabilities: Framebuffers objects are supported.
+2018-06-18 14:54:39 DEBUG main [GLRenderer] Capabilities: GLSL is supported.
+2018-06-18 14:54:39 DEBUG main [GLRenderer] Capabilities: Floating point textures are supported.
+2018-06-18 14:54:39 DEBUG main [GLRenderer] Capabilities: Floating point color buffers are supported.
+2018-06-18 14:54:39 DEBUG main [GLRenderer] Capabilities: Fast buffer blitting is supported.
+2018-06-18 14:54:39 DEBUG main [GLRenderer] Capabilities: Multisample framebuffer objects are supported.
+2018-06-18 14:54:39 DEBUG main [GLRenderer] Capabilities: Vertex buffer objects are supported.
+2018-06-18 14:54:39 DEBUG main [GLRenderer] Capabilities: Geometry shaders are supported.
+2018-06-18 14:54:39 DEBUG main [GLRenderer] Capabilities: Custom texture filtering is supported.
+2018-06-18 14:54:39 DEBUG main [GLRenderer] Capabilities: Synchronization objects are supported.
+2018-06-18 14:54:39 DEBUG main [GLRenderer] Capabilities: Bindless rendering is supported.
+2018-06-18 14:54:39 DEBUG main [Thread] Spawning thread "prvw"
+2018-06-18 14:54:39 DEBUG prvw [WGLDevice] Initializing WGL device
+2018-06-18 14:54:39 DEBUG prvw [WGLRenderer] Initializing WGL renderer
+2018-06-18 14:54:39 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'Accumulation program']
+2018-06-18 14:54:39 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'Directional shadow map generator']
+2018-06-18 14:54:39 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'Paraboloid shadow map generator', maxVertices=4]
+2018-06-18 14:54:39 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'Cube/Hemicube shadow map generator (5/6 pass version)']
+2018-06-18 14:54:39 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'Cube shadow map generator (1 pass version)', maxVertices=18]
+2018-06-18 14:54:39 DEBUG prvw [GLProgram] Uploading a GPU program : GPUProgram[name = 'Hemicube shadow map generator (1 pass version)', maxVertices=15]
+2018-06-18 14:54:39 DEBUG main [GLProgram] Uploading a GPU program : GPUProgram[name = 'Tonemapper [Gamma]']
+2018-06-18 14:54:39 DEBUG main [GLProgram] Uploading a GPU program : GPUProgram[name = 'Tonemapper [Reinhard et al. 2002]']
+2018-06-18 14:54:39 DEBUG main [GLProgram] Uploading a GPU program : GPUProgram[name = 'Downsampling program']
+2018-06-18 14:54:39 DEBUG main [GLProgram] Uploading a GPU program : GPUProgram[name = 'Log-luminance program']
+2018-06-18 14:54:48 DEBUG main [Thread] Spawning thread "wrk0"
+2018-06-18 14:54:48 DEBUG main [Thread] Spawning thread "wrk1"
+2018-06-18 14:54:48 DEBUG main [Thread] Spawning thread "wrk2"
+2018-06-18 14:54:48 DEBUG main [Thread] Spawning thread "wrk3"
+2018-06-18 14:54:48 DEBUG main [Thread] Spawning thread "wrk4"
+2018-06-18 14:54:48 DEBUG main [Thread] Spawning thread "wrk5"
+2018-06-18 14:54:48 DEBUG main [Thread] Spawning thread "wrk6"
+2018-06-18 14:54:48 DEBUG main [Thread] Spawning thread "wrk7"
+2018-06-18 14:54:48 DEBUG main [Thread] Spawning thread "wrk8"
+2018-06-18 14:54:48 DEBUG main [Thread] Spawning thread "wrk9"
+2018-06-18 14:54:48 DEBUG main [Thread] Spawning thread "wrk10"
+2018-06-18 14:54:48 DEBUG main [Thread] Spawning thread "wrk11"
+2018-06-18 14:54:53 DEBUG prvw [GLProgram] Freeing GPU program "Directional shadow map generator"
+2018-06-18 14:54:53 DEBUG prvw [GLProgram] Freeing GPU program "Paraboloid shadow map generator"
+2018-06-18 14:54:53 DEBUG prvw [GLProgram] Freeing GPU program "Cube/Hemicube shadow map generator (5/6 pass version)"
+2018-06-18 14:54:53 DEBUG prvw [GLProgram] Freeing GPU program "Cube shadow map generator (1 pass version)"
+2018-06-18 14:54:53 DEBUG prvw [GLProgram] Freeing GPU program "Hemicube shadow map generator (1 pass version)"
+2018-06-18 14:54:53 DEBUG prvw [GLProgram] Freeing GPU program "Accumulation program"
+2018-06-18 14:54:53 DEBUG prvw [WGLRenderer] Shutting down WGL Renderer
+2018-06-18 14:54:53 DEBUG prvw [WGLDevice] Shutting down WGL device
+2018-06-18 14:54:53 DEBUG prvw [Thread] Thread "prvw" has finished
+2018-06-18 14:54:53 DEBUG wrk2 [Thread] Thread "wrk2" has finished
+2018-06-18 14:54:53 DEBUG wrk7 [Thread] Thread "wrk7" has finished
+2018-06-18 14:54:53 DEBUG wrk0 [Thread] Thread "wrk0" has finished
+2018-06-18 14:54:53 DEBUG wrk3 [Thread] Thread "wrk3" has finished
+2018-06-18 14:54:53 DEBUG wrk9 [Thread] Thread "wrk9" has finished
+2018-06-18 14:54:53 DEBUG wrk10[Thread] Thread "wrk10" has finished
+2018-06-18 14:54:53 DEBUG wrk4 [Thread] Thread "wrk4" has finished
+2018-06-18 14:54:53 DEBUG wrk6 [Thread] Thread "wrk6" has finished
+2018-06-18 14:54:53 DEBUG wrk11[Thread] Thread "wrk11" has finished
+2018-06-18 14:54:53 DEBUG wrk1 [Thread] Thread "wrk1" has finished
+2018-06-18 14:54:53 DEBUG wrk8 [Thread] Thread "wrk8" has finished
+2018-06-18 14:54:53 DEBUG wrk5 [Thread] Thread "wrk5" has finished
+2018-06-18 14:54:53 DEBUG main [GLProgram] Freeing GPU program "Log-luminance program"
+2018-06-18 14:54:53 DEBUG main [GLProgram] Freeing GPU program "Downsampling program"
+2018-06-18 14:54:53 DEBUG main [GLProgram] Freeing GPU program "Tonemapper [Reinhard et al. 2002]"
+2018-06-18 14:54:53 DEBUG main [GLProgram] Freeing GPU program "Tonemapper [Gamma]"
+2018-06-18 14:54:53 DEBUG main [WGLSession] Shutting down WGL session
+2018-06-18 14:54:53 INFO  main [statistics.cpp:142] Statistics:
+------------------------------------------------------------
+ * Loaded plugins :
+     none.
+ * Statistics:
+     none.
+------------------------------------------------------------

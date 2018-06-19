@@ -1,0 +1,508 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+
+	Automatically converted from Wavefront OBJ
+
+-->
+
+<scene version="0.5.0">
+	<integrator type="direct"/>
+
+	<bsdf type="diffuse" id="balcony_ceiling_material">
+		<rgb name="reflectance" value="0.5 0.5 0.5"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="balcony_wall_material">
+		<rgb name="reflectance" value="0.5 0.5 0.5"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="chair1_legs_material">
+		<rgb name="reflectance" value="0.5 0.5 0.5"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="chair1_seat_material">
+		<rgb name="reflectance" value="0.8 0.1 0.2"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="chair2_legs_material">
+		<rgb name="reflectance" value="0.5 0.5 0.5"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="chair2_seat_material">
+		<rgb name="reflectance" value="0.8 0.1 0.2"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="curtain_rail_material">
+		<rgb name="reflectance" value="1 1 1"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="curtains_material">
+		<rgb name="reflectance" value="0.8 0.8 0.8"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="cushion_material">
+		<rgb name="reflectance" value="0 0.1 0.7"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="cushion2_material">
+		<rgb name="reflectance" value="0 0.7 0.1"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="cushion3_material">
+		<rgb name="reflectance" value="0.4 0.1 0.7"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="door_material">
+		<rgb name="reflectance" value="0.6 0.6 0.2"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="foot_lamp1_material">
+		<rgb name="reflectance" value="0.5 0.5 0.5"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="foot_lamp2_material">
+		<rgb name="reflectance" value="0.5 0.5 0.5"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="foot_lamp_shade1_material">
+		<rgb name="reflectance" value="0.5 0.5 0.5"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="foot_lamp_shade2_material">
+		<rgb name="reflectance" value="0.5 0.8 0.2"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="palm1_material">
+		<rgb name="reflectance" value="0.2 0.8 0.1"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="palm_pot_material">
+		<rgb name="reflectance" value="0.6 0.7 0.2"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="plate_material">
+		<rgb name="reflectance" value="0.7 0.7 0.9"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="room_ceiling_material">
+		<rgb name="reflectance" value="1 1 1"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="room_floor_material">
+		<rgb name="reflectance" value="0.6 0.6 0.1"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="room_wall1_material">
+		<rgb name="reflectance" value="1 1 1"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="room_walls_material">
+		<rgb name="reflectance" value="1 1 1"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="rug_material">
+		<rgb name="reflectance" value="0.9 0.1 0.1"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="sofa1_material">
+		<rgb name="reflectance" value="0.3 0.1 0.8"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="sofa1_legs_material">
+		<rgb name="reflectance" value="0.1 0.1 0.1"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="sofa2_material">
+		<rgb name="reflectance" value="0.3 0.1 0.8"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="sofa2_legs_material">
+		<rgb name="reflectance" value="0.1 0.1 0.1"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="spots_light_material">
+		<rgb name="reflectance" value="1 1 0"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="spots_metal_material">
+		<rgb name="reflectance" value="0.5 0.5 0.5"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="stand_material">
+		<rgb name="reflectance" value="0.6 0.3 0.3"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="table_board_material">
+		<rgb name="reflectance" value="0.6 0.3 0.3"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="vase1_material">
+		<rgb name="reflectance" value="0.1 0.5 0.3"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="wall_pic1_material">
+		<rgb name="reflectance" value="0.1 0.1 0.7"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="wall_pic1_frame_material">
+		<rgb name="reflectance" value="0.1 0.1 0.1"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="wall_pic2_material">
+		<rgb name="reflectance" value="0.1 0.9 0.5"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="wall_pic2_frame_material">
+		<rgb name="reflectance" value="0.1 0.1 0.1"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="wall_pic3_material">
+		<rgb name="reflectance" value="0.6 0.1 0.4"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="wall_pic3_frame_material">
+		<rgb name="reflectance" value="0.1 0.1 0.1"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="windows_frames_material">
+		<rgb name="reflectance" value="0.7 0.7 0.7"/>
+	</bsdf>
+
+	<shape type="serialized" id="room_triangulated_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="0"/>
+
+		<ref name="bsdf" id="spots_light_material"/>
+
+		<emitter type="area">
+			<spectrum name="radiance" value="800, 100, 100"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_0_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="1"/>
+
+		<ref name="bsdf" id="spots_light_material"/>
+
+		<emitter type="area">
+			<spectrum name="radiance" value="100, 800, 100"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_1_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="2"/>
+
+		<ref name="bsdf" id="spots_light_material"/>
+
+		<emitter type="area">
+			<spectrum name="radiance" value="100, 100, 800"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_2_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="3"/>
+
+		<ref name="bsdf" id="wall_pic2_frame_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_3_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="4"/>
+
+		<ref name="bsdf" id="table_board_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_4_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="5"/>
+
+		<ref name="bsdf" id="chair2_seat_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_5_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="6"/>
+
+		<ref name="bsdf" id="rug_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_6_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="7"/>
+
+		<ref name="bsdf" id="vase1_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_7_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="8"/>
+
+		<ref name="bsdf" id="sofa2_legs_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_8_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="9"/>
+
+		<ref name="bsdf" id="wall_pic2_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_9_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="10"/>
+
+		<ref name="bsdf" id="wall_pic1_frame_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_10_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="11"/>
+
+		<ref name="bsdf" id="foot_lamp2_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_11_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="12"/>
+
+		<ref name="bsdf" id="room_ceiling_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_12_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="13"/>
+
+		<ref name="bsdf" id="foot_lamp1_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_13_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="14"/>
+
+		<ref name="bsdf" id="chair1_seat_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_14_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="15"/>
+
+		<ref name="bsdf" id="room_walls_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_15_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="16"/>
+
+		<ref name="bsdf" id="room_floor_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_16_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="17"/>
+
+		<ref name="bsdf" id="balcony_ceiling_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_17_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="18"/>
+
+		<ref name="bsdf" id="cushion3_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_18_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="19"/>
+
+		<ref name="bsdf" id="curtains_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_19_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="20"/>
+
+		<ref name="bsdf" id="stand_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_20_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="21"/>
+
+		<ref name="bsdf" id="wall_pic3_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_21_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="22"/>
+
+		<ref name="bsdf" id="palm1_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_22_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="23"/>
+
+		<ref name="bsdf" id="sofa1_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_23_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="24"/>
+
+		<ref name="bsdf" id="chair2_legs_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_24_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="25"/>
+
+		<ref name="bsdf" id="plate_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_25_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="26"/>
+
+		<ref name="bsdf" id="balcony_wall_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_26_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="27"/>
+
+		<ref name="bsdf" id="windows_frames_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_27_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="28"/>
+
+		<ref name="bsdf" id="wall_pic3_frame_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_28_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="29"/>
+
+		<ref name="bsdf" id="foot_lamp_shade2_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_29_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="30"/>
+
+		<ref name="bsdf" id="room_wall1_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_30_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="31"/>
+
+		<ref name="bsdf" id="foot_lamp_shade1_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_31_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="32"/>
+
+		<ref name="bsdf" id="cushion_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_32_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="33"/>
+
+		<ref name="bsdf" id="chair1_legs_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_33_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="34"/>
+
+		<ref name="bsdf" id="curtain_rail_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_34_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="35"/>
+
+		<ref name="bsdf" id="palm_pot_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_35_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="36"/>
+
+		<ref name="bsdf" id="spots_light_material"/>
+
+		<emitter type="area">
+			<spectrum name="radiance" value="800, 800, 200"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_36_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="37"/>
+
+		<ref name="bsdf" id="wall_pic1_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_37_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="38"/>
+
+		<ref name="bsdf" id="spots_metal_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_38_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="39"/>
+
+		<ref name="bsdf" id="sofa1_legs_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_39_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="40"/>
+
+		<ref name="bsdf" id="door_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_40_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="41"/>
+
+		<ref name="bsdf" id="cushion2_material"/>
+	</shape>
+
+	<shape type="serialized" id="room_triangulated_41_mesh">
+		<string name="filename" value="room.serialized"/>
+		<integer name="shapeIndex" value="42"/>
+
+		<ref name="bsdf" id="sofa2_material"/>
+	</shape>
+
+	<sensor type="perspective">
+		<float name="farClip" value="37.4806"/>
+		<float name="focusDistance" value="2.36966"/>
+		<float name="fov" value="70"/>
+		<string name="fovAxis" value="x"/>
+		<float name="nearClip" value="0.0613205"/>
+		<transform name="toWorld">
+			<lookat target="1.49973, 1.93466, 1.24085" origin="2.28955, 2.33737, 1.70346" up="-0.30673, 0.912498, -0.270674"/>
+		</transform>
+
+		<sampler type="independent">
+			<integer name="sampleCount" value="4"/>
+		</sampler>
+
+		<film type="hdrfilm">
+			<rfilter type="gaussian"/>
+            <integer name="width" value="256"/>
+            <integer name="height" value="256"/>
+		</film>
+	</sensor>
+</scene>

@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+
+	Automatically converted from Wavefront OBJ
+
+-->
+
+<scene version="0.5.0">
+	<integrator type="direct"/>
+
+	<bsdf type="diffuse" id="06___Default.001_material">
+		<texture name="reflectance" type="bitmap" id="building03_c.tga">
+			<string name="filename" value="textures/building03_c.tga"/>
+		</texture>
+	</bsdf>
+
+	<bsdf type="diffuse" id="09___Default.001_material">
+		<texture name="reflectance" type="bitmap" id="building05 _c.tga">
+			<string name="filename" value="textures/building05 _c.tga"/>
+		</texture>
+	</bsdf>
+
+	<bsdf type="diffuse" id="20___Default.001_material">
+		<!-- <rgb name="reflectance" value="0.24784 0.36392 0.04704"/> -->
+		<texture name="reflectance" type="bitmap">
+			<string name="filename" value="textures/1_green grass texture-seamless.jpg"/>
+			<string name="filterType" value="trilinear"/>
+			<float name="uscale" value="10"/>
+			<float name="vscale" value="10"/>
+		</texture>
+	</bsdf>
+
+	<bsdf type="diffuse" id="20___Defaulta.001_material">
+		<texture name="reflectance" type="bitmap">
+			<string name="filename" value="textures/Concrete.Cast-In-Place.Exposed Aggregate.Medium.jpg"/>
+			<string name="filterType" value="trilinear"/>
+			<float name="uscale" value="30"/>
+			<float name="vscale" value="30"/>
+		</texture>
+	</bsdf>
+
+	<bsdf type="diffuse" id="21___Default.001_material">
+		<rgb name="reflectance" value="0.47056 0.47056 0.47056"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="3db___building_06.001_material">
+		<texture name="reflectance" type="bitmap" id="building 06_ c.tga">
+			<string name="filename" value="textures/building 06_ c.tga"/>
+		</texture>
+	</bsdf>
+
+	<bsdf type="diffuse" id="Building_dnt.001_material">
+		<texture name="reflectance" type="bitmap" id="Building_V02_C.png">
+			<string name="filename" value="textures/Building_V02_C.png"/>
+		</texture>
+	</bsdf>
+
+	<bsdf type="diffuse" id="Material__0.001_material">
+		<texture name="reflectance" type="bitmap" id="Building_V01_C.png">
+			<string name="filename" value="textures/Building_V01_C.png"/>
+		</texture>
+	</bsdf>
+
+	<bsdf type="diffuse" id="Sky_material">
+		<rgb name="reflectance" value="0.0 0.0 0.0"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="StopSignHead0_material">
+		<texture name="reflectance" type="bitmap" id="119498958977780800stop_sign_right_font_mig_.svg.med.png">
+			<string name="filename" value="textures/119498958977780800stop_sign_right_font_mig_.svg.med.png"/>
+		</texture>
+	</bsdf>
+
+	<bsdf type="diffuse" id="StopSignHead1_material">
+		<ref name="reflectance" id="119498958977780800stop_sign_right_font_mig_.svg.med.png"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="StopSignPole_material">
+		<rgb name="reflectance" value="0.381592 0.381592 0.381592"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="Sun_material">
+		<rgb name="reflectance" value="0.0 0.0 0.0"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="building_025.001_material">
+		<texture name="reflectance" type="bitmap" id="building_025_c.tga">
+			<string name="filename" value="textures/building_025_c.tga"/>
+		</texture>
+	</bsdf>
+
+	<bsdf type="diffuse" id="building_16.001_material">
+		<texture name="reflectance" type="bitmap" id="building_016_c.tga">
+			<string name="filename" value="textures/building_016_c.tga"/>
+		</texture>
+	</bsdf>
+
+	<bsdf type="diffuse" id="orig_orig_orig_17___Default.001_material">
+		<texture name="reflectance" type="bitmap" id="building 01_c.tga">
+			<string name="filename" value="textures/building 01_c.tga"/>
+		</texture>
+	</bsdf>
+
+	<shape type="serialized" id="street_6_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="6"/>
+
+		<ref name="bsdf" id="Sun_material"/>
+
+		<emitter type="area">
+			<rgb name="radiance" value="270.0, 240.0, 100.0"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="street_5_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="5"/>
+
+		<ref name="bsdf" id="Sky_material"/>
+
+		<emitter type="area">
+			<rgb name="radiance" value="0.4, 0.4, 1.0"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="street_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="0"/>
+
+		<ref name="bsdf" id="StopSignPole_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_1_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="1"/>
+
+		<ref name="bsdf" id="StopSignHead0_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_2_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="2"/>
+
+		<ref name="bsdf" id="StopSignHead1_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_3_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="3"/>
+
+		<ref name="bsdf" id="StopSignPole_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_4_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="4"/>
+
+		<ref name="bsdf" id="StopSignPole_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_7_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="7"/>
+
+		<ref name="bsdf" id="06___Default.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_8_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="8"/>
+
+		<ref name="bsdf" id="3db___building_06.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_9_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="9"/>
+
+		<ref name="bsdf" id="09___Default.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_10_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="10"/>
+
+		<ref name="bsdf" id="Building_dnt.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_11_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="11"/>
+
+		<ref name="bsdf" id="building_025.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_12_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="12"/>
+
+		<ref name="bsdf" id="Building_dnt.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_13_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="13"/>
+
+		<ref name="bsdf" id="Material__0.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_14_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="14"/>
+
+		<ref name="bsdf" id="Material__0.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_15_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="15"/>
+
+		<ref name="bsdf" id="3db___building_06.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_16_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="16"/>
+
+		<ref name="bsdf" id="building_025.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_17_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="17"/>
+
+		<ref name="bsdf" id="09___Default.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_18_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="18"/>
+
+		<bsdf type="diffuse"/>
+	</shape>
+
+	<shape type="serialized" id="street_19_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="19"/>
+
+		<ref name="bsdf" id="06___Default.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_20_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="20"/>
+
+		<bsdf type="diffuse"/>
+	</shape>
+
+	<shape type="serialized" id="street_21_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="21"/>
+
+		<ref name="bsdf" id="21___Default.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_22_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="22"/>
+
+		<ref name="bsdf" id="building_16.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_23_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="23"/>
+
+		<bsdf type="diffuse"/>
+	</shape>
+
+	<shape type="serialized" id="street_24_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="24"/>
+
+		<ref name="bsdf" id="09___Default.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_25_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="25"/>
+
+		<ref name="bsdf" id="06___Default.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_26_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="26"/>
+
+		<ref name="bsdf" id="20___Default.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_27_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="27"/>
+
+		<ref name="bsdf" id="3db___building_06.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_28_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="28"/>
+
+		<ref name="bsdf" id="09___Default.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_29_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="29"/>
+
+		<ref name="bsdf" id="Material__0.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_30_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="30"/>
+
+		<ref name="bsdf" id="building_16.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_31_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="31"/>
+
+		<ref name="bsdf" id="09___Default.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_32_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="32"/>
+
+		<ref name="bsdf" id="Material__0.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_33_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="33"/>
+
+		<ref name="bsdf" id="Material__0.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_34_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="34"/>
+
+		<ref name="bsdf" id="Material__0.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_35_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="35"/>
+
+		<ref name="bsdf" id="building_16.001_material"/>
+	</shape>
+
+	<shape type="serialized" id="street_36_mesh">
+		<string name="filename" value="street.serialized"/>
+		<integer name="shapeIndex" value="36"/>
+
+		<ref name="bsdf" id="20___Defaulta.001_material"/>
+	</shape>
+
+	<sensor type="perspective">
+		<float name="farClip" value="1621.8"/>
+		<float name="focusDistance" value="4.06508"/>
+		<float name="fov" value="45"/>
+		<string name="fovAxis" value="x"/>
+		<float name="nearClip" value="3.15395"/>
+		<transform name="toWorld">
+
+			<lookat target="9.92882, 2.826, 16.8559" origin="9.37535, 3.13876, 17.6278" up="0.18732, 0.949814, -0.25053"/>
+		</transform>
+
+		<sampler type="independent">
+			<integer name="sampleCount" value="4"/>
+		</sampler>
+
+		<film type="hdrfilm">
+			<integer name="height" value="224"/>
+			<integer name="width" value="224"/>
+
+			<rfilter type="gaussian"/>
+		</film>
+	</sensor>
+</scene>

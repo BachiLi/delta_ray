@@ -1,0 +1,154 @@
+# Blender MTL File: 'street.blend'
+# Material Count: 15
+
+newmtl 06___Default.001
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd /E:/Work/Sale/3D/Building/City_Building/textures/building03_c.tga
+map_Ka /E:/Work/Sale/3D/Building/City_Building/textures/building03_c.tga
+
+newmtl 09___Default.001
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470560 0.470560 0.470560
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd /E:/Work/Sale/3D/Building/City_Building/textures/building05 _c.tga
+map_Ka /E:/Work/Sale/3D/Building/City_Building/textures/building05 _c.tga
+
+newmtl 20___Default.001
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.247840 0.363920 0.047040
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl 20___Defaulta.001
+Ns 27.450980
+Ka 0.000000 0.000000 0.000000
+Kd 0.216480 0.216480 0.216480
+Ks 0.144000 0.144000 0.144000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl 21___Default.001
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470560 0.470560 0.470560
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl 3db___building_06.001
+Ns 41.176471
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.324000 0.324000 0.324000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd /E:/Work/Sale/3D/Building/City_Building/textures/building 06_ c.tga
+map_Ka /E:/Work/Sale/3D/Building/City_Building/textures/building 06_ c.tga
+
+newmtl Building_dnt.001
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd /E:/Work/Sale/3D/Building/City_Building/textures/Building_V02_C.png
+map_Ka /E:/Work/Sale/3D/Building/City_Building/textures/Building_V02_C.png
+
+newmtl Material__0.001
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd /E:/Work/Sale/3D/Building/City_Building/textures/Building_V01_C.png
+map_Ka /E:/Work/Sale/3D/Building/City_Building/textures/Building_V01_C.png
+
+newmtl Sky
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.800000 0.800000 0.800000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl StopSignHead0
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Users/bachi/Programs/delta_ray/test/results/stop_sign/textures/119498958977780800stop_sign_right_font_mig_.svg.med.png
+
+newmtl StopSignPole
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.381592 0.381592 0.381592
+Ks 0.825397 0.825397 0.825397
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Sun
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl building_025.001
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470560 0.470560 0.470560
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd /E:/Work/Sale/3D/Building/City_Building/textures/building_025_c.tga
+map_Ka /E:/Work/Sale/3D/Building/City_Building/textures/building_025_c.tga
+
+newmtl building_16.001
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd /E:/Work/Sale/3D/Building/City_Building/textures/building_016_c.tga
+map_Ka /E:/Work/Sale/3D/Building/City_Building/textures/building_016_c.tga
+
+newmtl orig_orig_orig_17___Default.001
+Ns 98.039216
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd /E:/Work/Sale/3D/Building/City_Building/textures/building 01_c.tga
+map_Ka /E:/Work/Sale/3D/Building/City_Building/textures/building 01_c.tga

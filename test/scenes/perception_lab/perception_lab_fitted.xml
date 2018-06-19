@@ -1,0 +1,1370 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+
+	Automatically converted from Wavefront OBJ
+
+-->
+
+<scene version="0.5.0">
+	<integrator type="path"/>
+
+	<bsdf type="diffuse" id="MonitorGlass_material">
+        <!--rgb name="reflectance" value="0.827451 0.815686 0.784314"/-->
+        <rgb name="reflectance" value="0.02649 0.025668 0.025569"/>
+        <rgb name="specular" value="0.04806 0.043762 0.043667"/>
+        <rgb name="roughness" value="0.075175"/>
+	</bsdf>
+
+    <bsdf type="diffuse" id="MonitorPlastic_material">
+        <rgb name="reflectance" value="0.049133 0.040022 0.039694"/>
+        <rgb name="specular" value="0.095700 0.074742 0.068427"/>
+        <rgb name="roughness" value="0.096425"/>
+	</bsdf>
+
+    <bsdf type="diffuse" id="MonitorPlastic2_material">
+        <rgb name="reflectance" value="0.052366 0.043612 0.048831"/>
+        <rgb name="specular" value="0.077870 0.070985 0.069222"/>
+        <rgb name="roughness" value="0.1548"/>
+	</bsdf>
+
+    <bsdf type="diffuse" id="StandPlastic_material">
+        <rgb name="reflectance" value="0.057265 0.054390 0.048404"/>
+        <rgb name="specular" value="0.086648 0.077867 0.070734"/>
+        <rgb name="roughness" value="0.1803"/>
+	</bsdf>
+
+    <bsdf type="diffuse" id="StandPlastic2_material">
+        <rgb name="reflectance" value="0.057265 0.054390 0.048404"/>
+        <rgb name="specular" value="0.086648 0.077867 0.070734"/>
+        <rgb name="roughness" value="0.1803"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="ScreenBlack_material">
+        <!--rgb name="reflectance" value="0.356863 0.368627 0.376471"/-->
+        <rgb name="reflectance" value="0.06 0.06 0.06"/>
+        <rgb name="specular" value="0.01 0.01 0.01"/>
+        <rgb name="roughness" value="0.15"/>
+    </bsdf>
+
+    <bsdf type="diffuse" id="ScreenWhite_material">
+		<rgb name="reflectance" value="0.06 0.06 0.06"/>
+        <rgb name="specular" value="0.01 0.01 0.01"/>
+        <rgb name="roughness" value="0.15"/>
+<!--rgb name="reflectance" value="0.945098 0.976471 1"/-->
+	</bsdf>
+
+	<bsdf type="diffuse" id="Carpet_material">
+        <rgb name="reflectance" value="0.039836 0.039040 0.044768"/>
+        <rgb name="specular" value="0.067836 0.072839 0.061707"/>
+        <rgb name="roughness" value="0.3084"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="Ceiling_material">
+		<rgb name="reflectance" value="0.9313 0.9302 0.9087"/>
+        <rgb name="specular" value="0.1222 0.1202 0.1240"/>
+        <rgb name="roughness" value="0.1294"/>
+    </bsdf>
+
+	<bsdf type="diffuse" id="Wall_material">
+        <rgb name="reflectance" value="0.9302 0.8932 0.8189"/>
+        <rgb name="specular" value="0.1453 0.1154 0.1246"/>
+        <rgb name="roughness" value="0.1096"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="Door_material">
+        <rgb name="reflectance" value="0.5461 0.5935 0.5872"/>
+        <rgb name="specular" value="0.1126 0.1128 0.1612"/>
+        <rgb name="roughness" value="0.089620"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="Vent_material">
+        <rgb name="reflectance" value="0.8113 0.8491 0.8537"/>
+        <rgb name="specular" value="0.0930 0.1114 0.0991"/>
+        <rgb name="roughness" value="0.1346"/>
+    </bsdf>
+
+	<bsdf type="diffuse" id="TableMetal_material">
+		<rgb name="reflectance" value="0.2133 0.1539 0.1531"/>
+        <rgb name="specular" value="0.070059 0.046431 0.045426"/>
+        <rgb name="roughness" value="0.1532"/>
+    </bsdf>
+
+	<bsdf type="diffuse" id="TableMetal2_material">
+		<rgb name="reflectance" value="0.2384 0.2200 0.2261"/>
+        <rgb name="specular" value="0.074067 0.056709 0.057082"/>
+        <rgb name="roughness" value="0.2500"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="Table_material">
+        <rgb name="reflectance" value="0.9501 0.9366 0.8879"/>
+        <rgb name="specular" value="0.1815 0.1540 0.1477"/>
+        <rgb name="roughness" value="0.1212"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="Aluminum_material">
+		<rgb name="reflectance" value="0.2747 0.2032 0.2144"/>
+        <rgb name="specular" value="0.1055 0.0656 0.0604"/>
+        <rgb name="roughness" value="0.1306"/>
+    </bsdf>
+
+	<bsdf type="diffuse" id="Aluminum2_material">
+		<rgb name="reflectance" value="0.1832 0.1661 0.1680"/>
+        <rgb name="specular" value="0.065715 0.049763 0.050436"/>
+        <rgb name="roughness" value="0.1103"/>
+    </bsdf>
+
+	<bsdf type="diffuse" id="Vent2_material">
+		<rgb name="reflectance" value="0.819608 0.843137 0.843137"/>
+        <rgb name="specular" value="0.0 0.0 0.0"/>
+        <rgb name="roughness" value="1.0"/>
+    </bsdf>
+
+	<bsdf type="diffuse" id="SkyRibbon_IntelliHue_Wall_Washing_Powercore_west_light_material">
+        <rgb name="reflectance" value="0.5 0.5 0.5"/>
+        <rgb name="specular" value="0.0 0.0 0.0"/>
+        <rgb name="roughness" value="1.0"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="SkyRibbon_IntelliHue_Wall_Washing_Powercore_east_light_material">
+        <rgb name="reflectance" value="0.5 0.5 0.5"/>
+        <rgb name="specular" value="0.0 0.0 0.0"/>
+        <rgb name="roughness" value="1.0"/>
+	</bsdf>
+
+	<bsdf type="diffuse" id="SkyRibbon_IntelliHue_Linear_Direct_light_material">
+        <rgb name="reflectance" value="0.5 0.5 0.5"/>
+        <rgb name="specular" value="0.0 0.0 0.0"/>
+        <rgb name="roughness" value="1.0"/>
+	</bsdf>
+
+	<shape type="serialized" id="Mesh1 Group3 Group2 Group1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="0"/>
+
+		<ref name="bsdf" id="MonitorGlass_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh2 Group2 Group1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="1"/>
+
+		<ref name="bsdf" id="MonitorPlastic2_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="2"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_3_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="3"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_4_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="4"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_5_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="5"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_6_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="6"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_7_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="7"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_8_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="8"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_9_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="9"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_10_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="10"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_11_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="11"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_12_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="12"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_13_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="13"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_14_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="14"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_15_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="15"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_16_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="16"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_17_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="17"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_18_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="18"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_19_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="19"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_20_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="20"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_21_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="21"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_22_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="22"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_23_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="23"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_24_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="24"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_25_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="25"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_26_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="26"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_27_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="27"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_28_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="28"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_29_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="29"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_30_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="30"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_31_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="31"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_32_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="32"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_33_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="33"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_34_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="34"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_35_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="35"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_36_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="36"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_37_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="37"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_38_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="38"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_39_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="39"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_40_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="40"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_41_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="41"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_42_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="42"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_43_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="43"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_44_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="44"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_45_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="45"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_46_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="46"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_47_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="47"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_48_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="48"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_49_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="49"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_50_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="50"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_51_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="51"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_52_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="52"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_53_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="53"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_54_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="54"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_55_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="55"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_56_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="56"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_57_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="57"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_58_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="58"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_59_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="59"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_60_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="60"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_61_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="61"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_62_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="62"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_63_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="63"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_64_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="64"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_65_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="65"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_66_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="66"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_67_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="67"/>
+
+		<ref name="bsdf" id="ScreenBlack_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_68_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="68"/>
+
+		<ref name="bsdf" id="ScreenWhite_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_69_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="69"/>
+
+		<ref name="bsdf" id="MonitorPlastic2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh3 Group1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="70"/>
+
+		<ref name="bsdf" id="MonitorPlastic2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh4 Group5 Group4 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="71"/>
+
+		<ref name="bsdf" id="StandPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh5 Group4 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="72"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh6 Group7 Group6 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="73"/>
+
+		<ref name="bsdf" id="Carpet_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh7 Group8 Group6 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="74"/>
+
+		<ref name="bsdf" id="Ceiling_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh8 Group6 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="75"/>
+
+		<ref name="bsdf" id="Wall_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_76_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="76"/>
+
+		<ref name="bsdf" id="Door_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_77_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="77"/>
+
+		<ref name="bsdf" id="Wall_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh9 Lum1_1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="78"/>
+
+		<ref name="bsdf" id="SkyRibbon_IntelliHue_Linear_Direct_light_material"/>
+
+		<emitter type="area">
+			<spectrum name="radiance" value="16.2837 16.6137 14.7351"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="Mesh10 Lum1_2 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="79"/>
+
+		<ref name="bsdf" id="SkyRibbon_IntelliHue_Linear_Direct_light_material"/>
+
+        <emitter type="area">
+			<spectrum name="radiance" value="18.6550 17.3656 15.7828"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="Mesh11 Group9 Lum2_1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="80"/>
+
+		<ref name="bsdf" id="Vent_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_81_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="81"/>
+
+		<ref name="bsdf" id="SkyRibbon_IntelliHue_Wall_Washing_Powercore_west_light_material"/>
+
+        <emitter type="area">
+			<spectrum name="radiance" value="19.2691 17.5822 15.3738"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_82_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="82"/>
+
+		<ref name="bsdf" id="Vent2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh12 Group10 Lum2_2 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="83"/>
+
+		<ref name="bsdf" id="Vent_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_84_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="84"/>
+
+		<ref name="bsdf" id="SkyRibbon_IntelliHue_Wall_Washing_Powercore_west_light_material"/>
+
+        <emitter type="area">
+        	<spectrum name="radiance" value="18.4308 16.7356 14.4522"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_85_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="85"/>
+
+		<ref name="bsdf" id="Vent2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh13 Group11 Lum2_3 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="86"/>
+
+		<ref name="bsdf" id="Vent_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_87_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="87"/>
+
+		<ref name="bsdf" id="SkyRibbon_IntelliHue_Wall_Washing_Powercore_east_light_material"/>
+
+        <emitter type="area">
+        	<spectrum name="radiance" value="12.2805 10.2490 7.0203"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_88_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="88"/>
+
+		<ref name="bsdf" id="Vent2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh14 Group12 Lum2_4 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="89"/>
+
+		<ref name="bsdf" id="Vent_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_90_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="90"/>
+
+		<ref name="bsdf" id="SkyRibbon_IntelliHue_Wall_Washing_Powercore_east_light_material"/>
+
+        <emitter type="area">
+        	<spectrum name="radiance" value="12.8327 12.4356 9.6876"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_91_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="91"/>
+
+		<ref name="bsdf" id="Vent2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh15 Group13 Lum2_5 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="92"/>
+
+		<ref name="bsdf" id="Vent_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_93_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="93"/>
+
+		<ref name="bsdf" id="SkyRibbon_IntelliHue_Wall_Washing_Powercore_east_light_material"/>
+
+        <emitter type="area">
+        	<spectrum name="radiance" value="11.9309 10.6861 7.9928"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_94_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="94"/>
+
+		<ref name="bsdf" id="Vent2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh16 Lum1_3 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="95"/>
+
+		<ref name="bsdf" id="SkyRibbon_IntelliHue_Linear_Direct_light_material"/>
+
+        <emitter type="area">
+        	<spectrum name="radiance" value="16.3671 16.4272 14.6958"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="Mesh17 Lum1_4 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="96"/>
+
+		<ref name="bsdf" id="SkyRibbon_IntelliHue_Linear_Direct_light_material"/>
+
+        <emitter type="area">
+        	<spectrum name="radiance" value="18.7400 17.4154 15.7761"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="Mesh18 Lum1_5 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="97"/>
+
+		<ref name="bsdf" id="SkyRibbon_IntelliHue_Linear_Direct_light_material"/>
+
+        <emitter type="area">
+        	<spectrum name="radiance" value="16.0386 16.2291 14.2918"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="Mesh19 Lum1_6 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="98"/>
+
+		<ref name="bsdf" id="SkyRibbon_IntelliHue_Linear_Direct_light_material"/>
+
+        <emitter type="area">
+        	<spectrum name="radiance" value="18.4029 17.5488 15.9751"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="Mesh20 Lum1_7 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="99"/>
+
+		<ref name="bsdf" id="SkyRibbon_IntelliHue_Linear_Direct_light_material"/>
+
+        <emitter type="area">
+        	<spectrum name="radiance" value="15.4447 15.6849 14.0434"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="Mesh21 Lum1_8 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="100"/>
+
+		<ref name="bsdf" id="SkyRibbon_IntelliHue_Linear_Direct_light_material"/>
+
+        <emitter type="area">
+        	<spectrum name="radiance" value="18.4146 17.4365 15.9618"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="Mesh22 Group14 Table1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="101"/>
+
+		<ref name="bsdf" id="TableMetal2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh23 Group15 Table1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="102"/>
+
+		<ref name="bsdf" id="Table_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh24 TableFoot1 TableLegs1 Table1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="103"/>
+
+		<ref name="bsdf" id="TableMetal_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh25 TableFoot2 TableLegs1 Table1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="104"/>
+
+		<ref name="bsdf" id="TableMetal_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh26 TableLegs1 Table1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="105"/>
+
+		<ref name="bsdf" id="TableMetal_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh27 TableLegs1 Table1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="106"/>
+
+		<ref name="bsdf" id="TableMetal2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh28 TableFoot3 TableLegs2 Table1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="107"/>
+
+		<ref name="bsdf" id="TableMetal_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh29 TableFoot4 TableLegs2 Table1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="108"/>
+
+		<ref name="bsdf" id="TableMetal_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh30 TableLegs2 Table1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="109"/>
+
+		<ref name="bsdf" id="TableMetal_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh31 TableLegs2 Table1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="110"/>
+
+		<ref name="bsdf" id="TableMetal2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh32 Group16 Table2 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="111"/>
+
+		<ref name="bsdf" id="TableMetal2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh33 Group17 Table2 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="112"/>
+
+		<ref name="bsdf" id="Table_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh34 TableFoot5 TableLegs3 Table2 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="113"/>
+
+		<ref name="bsdf" id="TableMetal_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh35 TableFoot6 TableLegs3 Table2 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="114"/>
+
+		<ref name="bsdf" id="TableMetal_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh36 TableLegs3 Table2 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="115"/>
+
+		<ref name="bsdf" id="TableMetal_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh37 TableLegs3 Table2 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="116"/>
+
+		<ref name="bsdf" id="TableMetal_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh38 TableFoot7 TableLegs4 Table2 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="117"/>
+
+		<ref name="bsdf" id="TableMetal_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh39 TableFoot8 TableLegs4 Table2 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="118"/>
+
+		<ref name="bsdf" id="TableMetal_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh40 TableLegs4 Table2 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="119"/>
+
+		<ref name="bsdf" id="TableMetal_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh41 TableLegs4 Table2 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="120"/>
+
+		<ref name="bsdf" id="TableMetal_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh42 Group18 Lum2_6 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="121"/>
+
+		<ref name="bsdf" id="Vent_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_122_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="122"/>
+
+		<ref name="bsdf" id="SkyRibbon_IntelliHue_Wall_Washing_Powercore_west_light_material"/>
+
+        <emitter type="area">
+        	<spectrum name="radiance" value="17.4838 16.1083 15.0748"/>
+		</emitter>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_123_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="123"/>
+
+		<ref name="bsdf" id="Vent2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh43 Vent1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="124"/>
+
+		<ref name="bsdf" id="Vent_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh44 Vent1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="125"/>
+
+		<ref name="bsdf" id="Vent_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh45 Vent2 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="126"/>
+
+		<ref name="bsdf" id="Vent_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh46 Vent2 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="127"/>
+
+		<ref name="bsdf" id="Vent_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh47 Slide_Clip1 Upper_Leg_Lock1 Upper_Leg_Pole1 Pole_Hinge1 Main_Hinge1 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="128"/>
+
+		<ref name="bsdf" id="StandPlastic2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh48 Upper_Leg_Lock1 Upper_Leg_Pole1 Pole_Hinge1 Main_Hinge1 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="129"/>
+
+		<ref name="bsdf" id="StandPlastic2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh49 Lower_Leg_Lock1 Mid_Pole1 Upper_Leg_Pole1 Pole_Hinge1 Main_Hinge1 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="130"/>
+
+		<ref name="bsdf" id="StandPlastic2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh50 Lower_Slide_Lock1 Mid_Pole1 Upper_Leg_Pole1 Pole_Hinge1 Main_Hinge1 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="131"/>
+
+		<ref name="bsdf" id="StandPlastic2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh51 Group19 Lower_Leg1 Mid_Pole1 Upper_Leg_Pole1 Pole_Hinge1 Main_Hinge1 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="132"/>
+
+		<ref name="bsdf" id="Aluminum2_material"/>
+	</shape>
+
+	<!--shape type="serialized" id="PerceptionLab_133_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="133"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape-->
+
+	<shape type="serialized" id="Mesh52 Lower_Leg1 Mid_Pole1 Upper_Leg_Pole1 Pole_Hinge1 Main_Hinge1 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="134"/>
+
+		<ref name="bsdf" id="StandPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh53 Lower_Leg1 Mid_Pole1 Upper_Leg_Pole1 Pole_Hinge1 Main_Hinge1 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="135"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh54 Mid_Pole1 Upper_Leg_Pole1 Pole_Hinge1 Main_Hinge1 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="136"/>
+
+		<ref name="bsdf" id="Aluminum2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh55 Upper_Leg_Pole1 Pole_Hinge1 Main_Hinge1 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="137"/>
+
+		<ref name="bsdf" id="Aluminum2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh56 Pole_Hinge1 Main_Hinge1 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="138"/>
+
+		<ref name="bsdf" id="StandPlastic2_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh57 Main_Hinge1 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="139"/>
+
+		<ref name="bsdf" id="Aluminum_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh58 Slide_Clip2 Upper_Leg_Lock2 Upper_Leg_Pole2 Pole_Hinge2 Main_Hinge2 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="140"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh59 Upper_Leg_Lock2 Upper_Leg_Pole2 Pole_Hinge2 Main_Hinge2 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="141"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh60 Lower_Leg_Lock2 Mid_Pole2 Upper_Leg_Pole2 Pole_Hinge2 Main_Hinge2 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="142"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh61 Lower_Slide_Lock2 Mid_Pole2 Upper_Leg_Pole2 Pole_Hinge2 Main_Hinge2 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="143"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh62 Group20 Lower_Leg2 Mid_Pole2 Upper_Leg_Pole2 Pole_Hinge2 Main_Hinge2 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="144"/>
+
+		<ref name="bsdf" id="Aluminum_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_145_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="145"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh63 Lower_Leg2 Mid_Pole2 Upper_Leg_Pole2 Pole_Hinge2 Main_Hinge2 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="146"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh64 Lower_Leg2 Mid_Pole2 Upper_Leg_Pole2 Pole_Hinge2 Main_Hinge2 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="147"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh65 Mid_Pole2 Upper_Leg_Pole2 Pole_Hinge2 Main_Hinge2 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="148"/>
+
+		<ref name="bsdf" id="Aluminum_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh66 Upper_Leg_Pole2 Pole_Hinge2 Main_Hinge2 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="149"/>
+
+		<ref name="bsdf" id="Aluminum_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh67 Pole_Hinge2 Main_Hinge2 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="150"/>
+
+		<ref name="bsdf" id="StandPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh68 Main_Hinge2 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="151"/>
+
+		<ref name="bsdf" id="Aluminum_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh69 Slide_Clip3 Upper_Leg_Lock3 Upper_Leg_Pole3 Pole_Hinge3 Main_Hinge3 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="152"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh70 Upper_Leg_Lock3 Upper_Leg_Pole3 Pole_Hinge3 Main_Hinge3 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="153"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh71 Lower_Leg_Lock3 Mid_Pole3 Upper_Leg_Pole3 Pole_Hinge3 Main_Hinge3 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="154"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh72 Lower_Slide_Lock3 Mid_Pole3 Upper_Leg_Pole3 Pole_Hinge3 Main_Hinge3 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="155"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh73 Group21 Lower_Leg3 Mid_Pole3 Upper_Leg_Pole3 Pole_Hinge3 Main_Hinge3 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="156"/>
+
+		<ref name="bsdf" id="Aluminum_material"/>
+	</shape>
+
+	<shape type="serialized" id="PerceptionLab_157_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="157"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh74 Lower_Leg3 Mid_Pole3 Upper_Leg_Pole3 Pole_Hinge3 Main_Hinge3 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="158"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh75 Lower_Leg3 Mid_Pole3 Upper_Leg_Pole3 Pole_Hinge3 Main_Hinge3 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="159"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh76 Mid_Pole3 Upper_Leg_Pole3 Pole_Hinge3 Main_Hinge3 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="160"/>
+
+		<ref name="bsdf" id="Aluminum_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh77 Upper_Leg_Pole3 Pole_Hinge3 Main_Hinge3 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="161"/>
+
+		<ref name="bsdf" id="Aluminum_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh78 Pole_Hinge3 Main_Hinge3 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="162"/>
+
+		<ref name="bsdf" id="MonitorPlastic_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh79 Main_Hinge3 Complete_Main_Hinge1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="163"/>
+
+		<ref name="bsdf" id="Aluminum_material"/>
+	</shape>
+
+	<shape type="serialized" id="Mesh80 Top_Mount1 Model_mesh">
+		<string name="filename" value="perception_lab.serialized"/>
+		<integer name="shapeIndex" value="164"/>
+
+		<ref name="bsdf" id="Aluminum_material"/>
+	</shape>
+
+	<sensor type="perspective">
+		<float name="farClip" value="970.671"/>
+		<float name="focusDistance" value="-9.35428"/>
+		<float name="fov" value="90"/>
+		<string name="fovAxis" value="x"/>
+		<float name="nearClip" value="1.39421"/>
+		<transform name="toWorld">
+            <lookat origin="91.8027, 46.4187, -75.4472" target="60.6962, 36.8251, -75.4036" up="-0.0512, 1.0921, -0.0084"/>
+		</transform>
+
+		<sampler type="independent"/>
+
+		<film type="hdrfilm">
+			<integer name="height" value="512"/>
+			<integer name="width" value="512"/>
+
+			<rfilter type="box"/>
+		</film>
+	</sensor>
+</scene>
